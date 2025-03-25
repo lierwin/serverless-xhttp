@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package.json ./
 COPY app.js ./
 
-EXPOSE 3000
+EXPOSE 7860
 
 RUN apk add --no-cache curl bash && \
     npm install && \
